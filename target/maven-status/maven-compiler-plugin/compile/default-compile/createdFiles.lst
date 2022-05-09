@@ -1,0 +1,6 @@
+Component\StationTypeSelection.class
+Component\WorkCenterSelection.class
+Base\Base.class
+Component\LoginPage.class
+Component\MainPage.class
+Component\LineSelection.class

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Line_101_Camera_Test">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="latest"/>
+        <parameter name="platform" value="Windows 10"/>
+        <parameter name="resolution" value="1600x1200"/>
+        <classes>
+            <class name="Test.Line_101_Camera_Test"/>
+        </classes>
+    </test>
+    <test name="Line_102_Camera_Test">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="latest"/>
+        <parameter name="platform" value="Windows 10"/>
+        <parameter name="resolution" value="1600x1200"/>
+        <classes>
+            <class name="Test.Line_102_Camera_Test"/>
+        </classes>
+    </test>
+    <!--<test thread-count="5" name="test">
+        <classes>
+            <class name="Test.Line_101_Camera_Test"/>
+            <class name="Test.Line_102_Camera_Test"/>
+        </classes>
+    </test> &lt;!&ndash; Test &ndash;&gt;-->
+</suite> <!-- Suite -->
