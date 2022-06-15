@@ -28,7 +28,7 @@ public class Line_102_Camera_Test extends Base {
         //main.Change_button().click();
         Thread.sleep(5000);
         try {
-            wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
+            //wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
             System.out.println(login.LoginNow().getText());
             login.LineID().click();
             Thread.sleep(1000);
@@ -104,7 +104,7 @@ public class Line_102_Camera_Test extends Base {
         //main.Change_button().click();
         Thread.sleep(5000);
         try {
-            wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
+            //wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
             System.out.println(login.LoginNow().getText());
             login.LineID().click();
             Thread.sleep(1000);
@@ -179,7 +179,7 @@ public class Line_102_Camera_Test extends Base {
         //main.Change_button().click();
         Thread.sleep(5000);
         try {
-            wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
+            //wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
             System.out.println(login.LoginNow().getText());
             login.LineID().click();
             Thread.sleep(1000);
@@ -254,7 +254,7 @@ public class Line_102_Camera_Test extends Base {
         //main.Change_button().click();
         Thread.sleep(5000);
         try {
-            wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
+            //wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
             System.out.println(login.LoginNow().getText());
             login.LineID().click();
             Thread.sleep(1000);

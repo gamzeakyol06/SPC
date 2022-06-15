@@ -15,12 +15,14 @@
                     <plugins>
                         <plugin>
                             <groupId>org.apache.maven.plugins</groupId>
-                            <artifactId>maven-war-plugin</artifactId>
-                            <version>2.22.0</version>
+                            <artifactId>maven-surefire-plugin</artifactId>
                             <configuration>
-                                <suiteXmlFiles>
-                                    <suiteXmlFile>testng.xml</suiteXmlFile>
-                                </suiteXmlFiles>
+                                <properties>
+                                    <property>
+                                        <name>listeners</name>
+                                        <value>org.testng.reporters.EmailableReporter,</value>
+                                    </property>
+                                </properties>
                             </configuration>
                         </plugin>
                     </plugins>
@@ -53,7 +55,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.9.0</version>
+            <version>4.1.4</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
@@ -77,7 +79,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-support</artifactId>
-            <version>3.14.0</version>
+            <version>4.1.4</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>

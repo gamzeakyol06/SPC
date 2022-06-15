@@ -9,8 +9,8 @@ import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
 public class Line_101_Camera_Test extends Base {
-    @BeforeTest
-    public void BeforeMethod(){
+    @BeforeSuite
+    public void BeforeMethod() {
         super.beforemethod();
         }
     @Test(description = "Success 101APLCamera", priority = 1)
@@ -22,7 +22,10 @@ public class Line_101_Camera_Test extends Base {
         StationTypeSelection stationtype = new StationTypeSelection(driver);
         MainPage main = new MainPage(driver);
             try {
-                wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
+                Actions action = new Actions(driver);
+                action.moveToElement(login.LoginNow()).build().perform();
+
+                //wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
                 System.out.println(login.LoginNow().getText());
                 login.LineID().click();
                 Thread.sleep(1000);
@@ -97,7 +100,7 @@ public class Line_101_Camera_Test extends Base {
         //main.Change_button().click();
         Thread.sleep(5000);
         try {
-            wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
+            //wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
             System.out.println(login.LoginNow().getText());
             login.LineID().click();
             Thread.sleep(1000);
@@ -172,7 +175,7 @@ public class Line_101_Camera_Test extends Base {
         //main.Change_button().click();
         Thread.sleep(5000);
         try {
-            wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
+            //wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
             System.out.println(login.LoginNow().getText());
             login.LineID().click();
             Thread.sleep(1000);
@@ -247,7 +250,7 @@ public class Line_101_Camera_Test extends Base {
         //main.Change_button().click();
         Thread.sleep(5000);
         try {
-            wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
+            //wait.until(ExpectedConditions.visibilityOfAllElements(login.LoginNow()));
             System.out.println(login.LoginNow().getText());
             login.LineID().click();
             Thread.sleep(1000);

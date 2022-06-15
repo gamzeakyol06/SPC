@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 315.231 sec <<< FAILURE!
-line_101_IML_Camera_Success(Test.Line_101_Camera_Test)  Time elapsed: 78.83 sec  <<< FAILURE!
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 344.664 sec <<< FAILURE!
+line_101_IML_Camera_Success(Test.Line_101_Camera_Test)  Time elapsed: 76.87 sec  <<< FAILURE!
 java.lang.AssertionError: The following asserts failed:
 	Module1 ST20 No Data,
 	Module2 ST20B No Data,
@@ -17,36 +17,20 @@ java.lang.AssertionError: The following asserts failed:
 	TBL_IML_M3_ST12 No Data
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at Test.Line_101_Camera_Test.line_101_IML_Camera_Success(Line_101_Camera_Test.java:229)
+	at Test.Line_101_Camera_Test.line_101_IML_Camera_Success(Line_101_Camera_Test.java:232)
 
-line_101_COL_Camera_Success(Test.Line_101_Camera_Test)  Time elapsed: 45.648 sec  <<< FAILURE!
+line_101_COL_Camera_Success(Test.Line_101_Camera_Test)  Time elapsed: 44.36 sec  <<< FAILURE!
 java.lang.AssertionError: The following asserts failed:
 	Module 3 Connector No Data,
 	Col Terminal Camera No Data
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at Test.Line_101_Camera_Test.line_101_COL_Camera_Success(Line_101_Camera_Test.java:303)
+	at Test.Line_101_Camera_Test.line_101_COL_Camera_Success(Line_101_Camera_Test.java:306)
 
-line_102_ASL_Camera_Success(Test.Line_102_Camera_Test)  Time elapsed: 35.711 sec  <<< FAILURE!
-java.lang.AssertionError: The following asserts failed:
-	Module 2 Ball No Data
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at Test.Line_102_Camera_Test.line_102_ASL_Camera_Success(Line_102_Camera_Test.java:161)
-
-line_102_COL_Camera_Success(Test.Line_102_Camera_Test)  Time elapsed: 39.395 sec  <<< FAILURE!
+line_102_COL_Camera_Success(Test.Line_102_Camera_Test)  Time elapsed: 39.695 sec  <<< FAILURE!
 java.lang.AssertionError: The following asserts failed:
 	Module 1 Prolunga No Data
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
 	at Test.Line_102_Camera_Test.line_102_COL_Camera_Success(Line_102_Camera_Test.java:311)
-
-line_102_IML_Camera_Success(Test.Line_102_Camera_Test)  Time elapsed: 34.945 sec  <<< FAILURE!
-java.lang.AssertionError: The following asserts failed:
-	Module 3 ST20S No Data,
-	Module 4 ST10F No Data,
-	Module 4 ST10S No Data
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at Test.Line_102_Camera_Test.line_102_IML_Camera_Success(Line_102_Camera_Test.java:236)
 
