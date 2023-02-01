@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="3" ignored="0" total="8" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="324164" started-at="2022-06-15T16:31:22 EET" finished-at="2022-06-15T16:36:46 EET">
+  <suite name="Command line suite" duration-ms="330176" started-at="2023-02-01T16:32:00 EET" finished-at="2023-02-01T16:37:30 EET">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="324164" started-at="2022-06-15T16:31:22 EET" finished-at="2022-06-15T16:36:46 EET">
+    <test name="Command line test" duration-ms="330176" started-at="2023-02-01T16:32:00 EET" finished-at="2023-02-01T16:37:30 EET">
       <class name="Test.Line_101_Camera_Test">
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:Test.Line_101_Camera_Test@7b49cea0]" name="BeforeMethod" is-config="true" duration-ms="19869" started-at="2022-06-15T16:31:02 EET" finished-at="2022-06-15T16:31:22 EET">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:Test.Line_101_Camera_Test@7b49cea0]" name="BeforeMethod" is-config="true" duration-ms="54693" started-at="2023-02-01T16:31:05 EET" finished-at="2023-02-01T16:32:00 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="line_101_APL_Camera_Success()[pri:1, instance:Test.Line_101_Camera_Test@7b49cea0]" name="line_101_APL_Camera_Success" duration-ms="18430" started-at="2022-06-15T16:31:22 EET" description="Success 101APLCamera" finished-at="2022-06-15T16:31:41 EET">
+        <test-method status="PASS" signature="line_101_APL_Camera_Success()[pri:1, instance:Test.Line_101_Camera_Test@7b49cea0]" name="line_101_APL_Camera_Success" duration-ms="17495" started-at="2023-02-01T16:32:00 EET" description="Success 101APLCamera" finished-at="2023-02-01T16:32:17 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- line_101_APL_Camera_Success -->
-        <test-method status="PASS" signature="line_101_ASL_Camera_Success()[pri:2, instance:Test.Line_101_Camera_Test@7b49cea0]" name="line_101_ASL_Camera_Success" duration-ms="47217" started-at="2022-06-15T16:31:41 EET" description="Success 101ASLCamera" finished-at="2022-06-15T16:32:28 EET">
+        <test-method status="PASS" signature="line_101_ASL_Camera_Success()[pri:2, instance:Test.Line_101_Camera_Test@7b49cea0]" name="line_101_ASL_Camera_Success" duration-ms="47563" started-at="2023-02-01T16:32:17 EET" description="Success 101ASLCamera" finished-at="2023-02-01T16:33:05 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- line_101_ASL_Camera_Success -->
-        <test-method status="FAIL" signature="line_101_IML_Camera_Success()[pri:3, instance:Test.Line_101_Camera_Test@7b49cea0]" name="line_101_IML_Camera_Success" duration-ms="76870" started-at="2022-06-15T16:32:28 EET" description="Success 101IMLCamera" finished-at="2022-06-15T16:33:45 EET">
+        <test-method status="FAIL" signature="line_101_IML_Camera_Success()[pri:3, instance:Test.Line_101_Camera_Test@7b49cea0]" name="line_101_IML_Camera_Success" duration-ms="77608" started-at="2023-02-01T16:33:05 EET" description="Success 101IMLCamera" finished-at="2023-02-01T16:34:22 EET">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -95,16 +95,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- line_101_IML_Camera_Success -->
-        <test-method status="FAIL" signature="line_101_COL_Camera_Success()[pri:4, instance:Test.Line_101_Camera_Test@7b49cea0]" name="line_101_COL_Camera_Success" duration-ms="44360" started-at="2022-06-15T16:33:45 EET" description="Success 101COLCamera" finished-at="2022-06-15T16:34:29 EET">
+        <test-method status="FAIL" signature="line_101_COL_Camera_Success()[pri:4, instance:Test.Line_101_Camera_Test@7b49cea0]" name="line_101_COL_Camera_Success" duration-ms="44805" started-at="2023-02-01T16:34:22 EET" description="Success 101COLCamera" finished-at="2023-02-01T16:35:07 EET">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
-Module 3 Connector No Data,
 Col Terminal Camera No Data]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
-Module 3 Connector No Data,
 Col Terminal Camera No Data
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
@@ -153,32 +151,36 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- line_101_COL_Camera_Success -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.Line_101_Camera_Test@7b49cea0]" name="AfterMethod" is-config="true" duration-ms="750" started-at="2022-06-15T16:36:46 EET" finished-at="2022-06-15T16:36:46 EET">
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.Line_101_Camera_Test@7b49cea0]" name="AfterMethod" is-config="true" duration-ms="976" started-at="2023-02-01T16:37:29 EET" finished-at="2023-02-01T16:37:30 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
       </class> <!-- Test.Line_101_Camera_Test -->
       <class name="Test.Line_102_Camera_Test">
-        <test-method status="PASS" signature="line_102_APL_Camera_Success()[pri:0, instance:Test.Line_102_Camera_Test@887af79]" name="line_102_APL_Camera_Success" duration-ms="26705" started-at="2022-06-15T16:34:29 EET" description="Success 102APLCamera" finished-at="2022-06-15T16:34:56 EET">
+        <test-method status="PASS" signature="line_102_APL_Camera_Success()[pri:0, instance:Test.Line_102_Camera_Test@887af79]" name="line_102_APL_Camera_Success" duration-ms="27695" started-at="2023-02-01T16:35:07 EET" description="Success 102APLCamera" finished-at="2023-02-01T16:35:35 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- line_102_APL_Camera_Success -->
-        <test-method status="PASS" signature="line_102_ASL_Camera_Success()[pri:0, instance:Test.Line_102_Camera_Test@887af79]" name="line_102_ASL_Camera_Success" duration-ms="35513" started-at="2022-06-15T16:34:56 EET" description="Success 102ASLCamera" finished-at="2022-06-15T16:35:31 EET">
+        <test-method status="PASS" signature="line_102_ASL_Camera_Success()[pri:0, instance:Test.Line_102_Camera_Test@887af79]" name="line_102_ASL_Camera_Success" duration-ms="35469" started-at="2023-02-01T16:35:35 EET" description="Success 102ASLCamera" finished-at="2023-02-01T16:36:10 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- line_102_ASL_Camera_Success -->
-        <test-method status="FAIL" signature="line_102_COL_Camera_Success()[pri:0, instance:Test.Line_102_Camera_Test@887af79]" name="line_102_COL_Camera_Success" duration-ms="39693" started-at="2022-06-15T16:35:31 EET" description="Success 102COLCamera" finished-at="2022-06-15T16:36:11 EET">
+        <test-method status="PASS" signature="line_102_COL_Camera_Success()[pri:0, instance:Test.Line_102_Camera_Test@887af79]" name="line_102_COL_Camera_Success" duration-ms="38626" started-at="2023-02-01T16:36:10 EET" description="Success 102COLCamera" finished-at="2023-02-01T16:36:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- line_102_COL_Camera_Success -->
+        <test-method status="FAIL" signature="line_102_IML_Camera_Success()[pri:0, instance:Test.Line_102_Camera_Test@887af79]" name="line_102_IML_Camera_Success" duration-ms="39904" started-at="2023-02-01T16:36:49 EET" description="Success 102IMLCamera" finished-at="2023-02-01T16:37:29 EET">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
-Module 1 Prolunga No Data]]>
+Module 5 ST50 No Data]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
-Module 1 Prolunga No Data
+Module 5 ST50 No Data
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at Test.Line_102_Camera_Test.line_102_COL_Camera_Success(Line_102_Camera_Test.java:311)
+at Test.Line_102_Camera_Test.line_102_IML_Camera_Success(Line_102_Camera_Test.java:236)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -222,12 +224,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- line_102_COL_Camera_Success -->
-        <test-method status="PASS" signature="line_102_IML_Camera_Success()[pri:0, instance:Test.Line_102_Camera_Test@887af79]" name="line_102_IML_Camera_Success" duration-ms="34604" started-at="2022-06-15T16:36:11 EET" description="Success 102IMLCamera" finished-at="2022-06-15T16:36:46 EET">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- line_102_IML_Camera_Success -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.Line_102_Camera_Test@887af79]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2022-06-15T16:36:46 EET" finished-at="2022-06-15T16:36:46 EET">
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.Line_102_Camera_Test@887af79]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2023-02-01T16:37:30 EET" finished-at="2023-02-01T16:37:30 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->

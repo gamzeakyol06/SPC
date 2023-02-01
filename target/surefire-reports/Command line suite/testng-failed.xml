@@ -13,7 +13,7 @@
       </class> <!-- Test.Line_101_Camera_Test -->
       <class name="Test.Line_102_Camera_Test">
         <methods>
-          <include name="line_102_COL_Camera_Success"/>
+          <include name="line_102_IML_Camera_Success"/>
           <include name="AfterMethod"/>
         </methods>
       </class> <!-- Test.Line_102_Camera_Test -->
