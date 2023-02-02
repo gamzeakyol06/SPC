@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 385.521 sec <<< FAILURE!
-line_101_IML_Camera_Success(Test.Line_101_Camera_Test)  Time elapsed: 77.608 sec  <<< FAILURE!
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 307.665 sec <<< FAILURE!
+line_101_IML_Camera_Success(Test.Line_101_Camera_Test)  Time elapsed: 78.573 sec  <<< FAILURE!
 java.lang.AssertionError: The following asserts failed:
 	Module1 ST20 No Data,
 	Module2 ST20B No Data,
@@ -19,14 +19,22 @@ java.lang.AssertionError: The following asserts failed:
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
 	at Test.Line_101_Camera_Test.line_101_IML_Camera_Success(Line_101_Camera_Test.java:232)
 
-line_101_COL_Camera_Success(Test.Line_101_Camera_Test)  Time elapsed: 44.805 sec  <<< FAILURE!
+line_101_COL_Camera_Success(Test.Line_101_Camera_Test)  Time elapsed: 44.362 sec  <<< FAILURE!
 java.lang.AssertionError: The following asserts failed:
+	Module 3 Connector No Data,
 	Col Terminal Camera No Data
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
 	at Test.Line_101_Camera_Test.line_101_COL_Camera_Success(Line_101_Camera_Test.java:306)
 
-line_102_IML_Camera_Success(Test.Line_102_Camera_Test)  Time elapsed: 39.904 sec  <<< FAILURE!
+line_102_APL_Camera_Success(Test.Line_102_Camera_Test)  Time elapsed: 29.111 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	Primary Camera No Data
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at Test.Line_102_Camera_Test.line_102_APL_Camera_Success(Line_102_Camera_Test.java:85)
+
+line_102_IML_Camera_Success(Test.Line_102_Camera_Test)  Time elapsed: 39.985 sec  <<< FAILURE!
 java.lang.AssertionError: The following asserts failed:
 	Module 5 ST50 No Data
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
