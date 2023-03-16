@@ -1,30 +1,36 @@
 package Base;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import java.net.MalformedURLException;
 
 public class Base {
     protected static WebDriver driver;
     public final static String MAIN_PAGE_URL = "https://sf.eldor.com.tr/SPC/Account/Login";
 
-    public void beforemethod()  {
+        public void beforemethod () throws MalformedURLException, InterruptedException {
 
-        ChromeOptions ops = new ChromeOptions();
-        ops.addArguments("--disable-notifications");
-        System.setProperty("webdriver.chrome.driver","src/main/driver/chromedriver.exe");
-        System.out.println(System.getProperty("webdriver.chrome.driver"));
-        driver = new ChromeDriver(ops);
-        driver.manage().window().maximize();
-        driver.get (MAIN_PAGE_URL);
+            ChromeOptions chromeOptions = new ChromeOptions();
+
+            chromeOptions.setCapability("browserName", "chrome");
+            chromeOptions.setCapability("platformName", "LINUX");
+            chromeOptions.addArguments("start-maximized");
+            chromeOptions.addArguments("--headless");
+            chromeOptions.addArguments("--no-sandbox");
+            chromeOptions.addArguments("--remote-allow-origins=*");
+
+            driver = new ChromeDriver(chromeOptions);
+            System.setProperty("webdriver.chrome.driver", "/src/main/driver/chromedriver_win32_x/chromedriver.exe");
+            System.out.println(System.getProperty("webdriver.chrome.driver"));
+
+            driver.manage().deleteAllCookies();
+            driver.manage().window().maximize();
+            System.out.println("hello spc");
+        }
+
+        public void aftermethod() {
+            driver.quit();
+        }
     }
-    public void aftermethod(){
-        driver.quit();
-        //driver.close();
-    }
-}
+

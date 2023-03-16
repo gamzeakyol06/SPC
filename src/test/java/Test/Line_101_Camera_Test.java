@@ -8,9 +8,11 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
+import java.net.MalformedURLException;
+
 public class Line_101_Camera_Test extends Base {
     @BeforeSuite
-    public void BeforeMethod() {
+    public void BeforeMethod() throws MalformedURLException, InterruptedException {
         super.beforemethod();
         }
     @Test(description = "Success 101APLCamera", priority = 1)
