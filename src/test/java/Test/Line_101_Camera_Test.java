@@ -14,7 +14,8 @@ public class Line_101_Camera_Test extends Base {
     @BeforeSuite
     public void BeforeMethod() throws MalformedURLException, InterruptedException {
         super.beforemethod();
-        }
+        driver.get(MAIN_PAGE_URL);
+    }
     @Test(description = "Success 101APLCamera", priority = 1)
     public void line_101_APL_Camera_Success() throws InterruptedException{
         SoftAssert softassert = new SoftAssert();
