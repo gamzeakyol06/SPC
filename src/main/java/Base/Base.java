@@ -21,7 +21,7 @@ public class Base {
             chromeOptions.addArguments("--remote-allow-origins=*");
 
 
-            System.setProperty("webdriver.chrome.driver", "src/main/driver/chromedriver_win32_x/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/spc_github_test/src/main/driver/chromedriver_win32_x/chromedriver.exe");
             System.out.println(System.getProperty("webdriver.chrome.driver")); //C:/Users/akyolg/IdeaProjects/SPC/
             driver = new ChromeDriver(chromeOptions);
             driver.manage().deleteAllCookies();
