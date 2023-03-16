@@ -26,7 +26,7 @@ public class Base {
 
             driver.manage().deleteAllCookies();
             driver.manage().window().maximize();
-            System.out.println("hello spc");
+            System.out.println("hello spc jenkins");
         }
 
         public void aftermethod() {
